@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  catalog.api:
+    build:
+      context: "/Users/archer/code/EShopMicroservices/src"
+      dockerfile: "Services/Catalog/Catalog.API/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Catalog.API.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "catalog.api:dev"
+    ports: []
+    volumes:
+    - "/Users/archer/code/EShopMicroservices/src/Services/Catalog/Catalog.API:/app:rw"
+    - "/Users/archer/code/EShopMicroservices/src:/src:rw"
+    - "/Users/archer/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"

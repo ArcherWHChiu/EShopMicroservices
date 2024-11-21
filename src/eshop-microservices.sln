@@ -9,11 +9,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1F39CEDC-9587-4970-B2EE-DA3F591DCE8D}"
 	ProjectSection(SolutionItems) = preProject
 		compose.yaml = compose.yaml
+		compose.override.yaml = compose.override.yaml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{0A58F51D-03F6-47DB-A3BD-A345CF833701}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{4AD996A6-5E13-4E05-8A35-7E446D05BBAA}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "compose.dcproj", "{6DCBEC70-4866-4297-9AD0-73928CCFA987}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
