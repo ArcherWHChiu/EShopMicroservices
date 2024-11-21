@@ -11,9 +11,9 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="compose.override.yaml">
-      <DependentUpon>compose.yaml</DependentUpon>
+      <DependentUpon>docker-compose.yml</DependentUpon>
     </None>
-    <None Include="compose.yaml" />
+    <None Include="docker-compose.yml" />
     <None Include=".dockerignore" />
   </ItemGroup>
 </Project>
